@@ -1,0 +1,60 @@
+/*Single page Start*/
+.single-page{
+    background: #F2F3F5;
+    min-height: 900px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    .back-button{
+        margin-bottom: 12px;
+        button{
+            background: unset;
+            color: $grey-font;
+            transition: .2s ease;
+            &:hover{
+                color: $black-font;
+                transition: .2s ease;
+            }
+        }
+    }
+    .blog-b{
+        p{
+            margin-top: 8px;
+            color: $grey-font;
+            font-size: 14px;
+        }
+        .cat-date{
+            margin: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            h4{
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                color: $grey-font-second;
+                line-height: normal;
+                margin-bottom: 0;
+            }
+        }
+        .bottom-content{
+            h2{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+        .img{
+            height: 225px;
+            border-radius: 16px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 16px;
+            }
+        }
+    }
+}
+
+/*Single page END*/

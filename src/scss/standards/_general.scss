@@ -1,0 +1,72 @@
+/* General style START*/
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+body {
+    overflow-x: hidden;
+
+    &.overflow-hidden {
+        overflow: hidden;
+    }
+    font-family: 'NoirPro-Regular'; 
+    h2{
+        font-family: 'NoirPro-Medium';
+        margin-bottom: 0;
+        color: $black-font;
+    }
+    h1{
+        font-family: 'NoirPro-Bold';
+        margin-bottom: 0;
+        color: $black-font;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+.body-no-scroll {
+    overflow: hidden;
+  }
+  .pageall{
+    transition: .3s;
+  }
+  .pageall.active{
+    filter: blur(3px) brightness(.6);
+    transition: .2s;
+  }
+/* General style END*/
